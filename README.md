@@ -39,7 +39,7 @@ import pandas as pd
 import joblib
 
 # Load pipeline
-pipeline = joblib.load("water_potability_model.pkl")
+model = joblib.load("water_potability_model.pkl")
 
 # Create a new water sample
 sample_data = {
@@ -57,7 +57,7 @@ sample_data = {
 sample_df = pd.DataFrame(sample_data)
 
 # Predict potability
-prediction = pipeline.predict(sample_df)
+prediction = model.predict(sample_df)
 print("Potable" if prediction[0] == 1 else "Not Potable")
 ```
 
