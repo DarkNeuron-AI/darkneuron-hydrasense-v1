@@ -1,6 +1,6 @@
 # 💧 HydraSense - Water Potability Classification Model (v1.0)
 
-A lightweight **Water Potability AI Model** built by **HydraSense** using **Random Forest Classifier** with **StandardScaler preprocessing**.  
+A lightweight **Water Potability AI Model** built by **DarkNeuronAI** using **Random Forest Classifier** with **StandardScaler preprocessing**.  
 This model predicts whether water is **Potable (1)** or **Not Potable (0)** based on chemical and physical features.
 
 ---
